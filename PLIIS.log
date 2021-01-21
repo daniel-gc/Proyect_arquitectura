@@ -1,0 +1,1015 @@
+2020-01-06 15:07:59.454  INFO 2012 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 2012 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-01-06 15:07:59.462 DEBUG 2012 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:07:59.463  INFO 2012 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-01-06 15:08:01.595  WARN 2012 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-06 15:08:04.965 DEBUG 2012 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-01-06 15:08:06.456  WARN 2012 --- [restartedMain] o.a.c.l.WebappClassLoaderBase            : The web application [PLIIS] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.5/java.lang.Thread.run(Thread.java:834)
+2020-01-06 15:08:06.457  WARN 2012 --- [restartedMain] o.a.c.l.WebappClassLoaderBase            : The web application [PLIIS] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.5/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.5/java.lang.Thread.run(Thread.java:834)
+2020-01-06 15:08:06.469 ERROR 2012 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-01-06 15:09:34.556  INFO 24976 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 24976 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-01-06 15:09:34.566 DEBUG 24976 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:09:34.568  INFO 24976 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-01-06 15:09:36.877  WARN 24976 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-06 15:09:40.063 DEBUG 24976 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-01-06 15:09:41.680  INFO 24976 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 7.843 seconds (JVM running for 10.242)
+2020-01-06 15:16:32.526  INFO 1096 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 1096 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-01-06 15:16:32.541 DEBUG 1096 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:16:32.543  INFO 1096 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-01-06 15:16:35.618  WARN 1096 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-06 15:16:38.680 DEBUG 1096 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-01-06 15:16:39.974  INFO 1096 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 8.492 seconds (JVM running for 10.586)
+2020-01-06 15:26:21.298  INFO 9456 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 9456 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-01-06 15:26:21.307 DEBUG 9456 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:26:21.308  INFO 9456 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-01-06 15:26:23.245  WARN 9456 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-06 15:26:26.026 DEBUG 9456 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-01-06 15:26:27.254  WARN 9456 --- [restartedMain] o.a.c.l.WebappClassLoaderBase            : The web application [PLIIS] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.5/java.lang.Thread.run(Thread.java:834)
+2020-01-06 15:26:27.255  WARN 9456 --- [restartedMain] o.a.c.l.WebappClassLoaderBase            : The web application [PLIIS] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.5/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.5/java.lang.Thread.run(Thread.java:834)
+2020-01-06 15:26:27.263 ERROR 9456 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-01-06 15:33:34.774  INFO 8524 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 8524 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-01-06 15:33:34.783 DEBUG 8524 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:33:34.784  INFO 8524 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-01-06 15:33:36.524  WARN 8524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-06 15:33:39.063 DEBUG 8524 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-01-06 15:33:40.208  WARN 8524 --- [restartedMain] o.a.c.l.WebappClassLoaderBase            : The web application [PLIIS] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.5/java.lang.Thread.run(Thread.java:834)
+2020-01-06 15:33:40.208  WARN 8524 --- [restartedMain] o.a.c.l.WebappClassLoaderBase            : The web application [PLIIS] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.5/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.5/java.lang.Thread.run(Thread.java:834)
+2020-01-06 15:33:40.215 ERROR 8524 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-01-06 15:47:02.382  INFO 27828 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 27828 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-01-06 15:47:02.397 DEBUG 27828 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-06 15:47:02.397  INFO 27828 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-01-06 15:47:04.295  WARN 27828 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-06 15:47:07.161 DEBUG 27828 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-01-06 15:47:08.481  INFO 27828 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 6.505 seconds (JVM running for 8.659)
+2020-01-07 14:18:51.178  INFO 25596 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 25596 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-01-07 14:18:51.185 DEBUG 25596 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-07 14:18:51.186  INFO 25596 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-01-07 14:18:52.909  WARN 25596 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-07 14:18:55.187 DEBUG 25596 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-01-07 14:18:56.243  INFO 25596 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 5.431 seconds (JVM running for 7.179)
+2020-01-07 14:20:53.977  INFO 27188 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 27188 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-01-07 14:20:53.986 DEBUG 27188 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-07 14:20:53.987  INFO 27188 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-01-07 14:20:56.324  WARN 27188 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-07 14:20:58.832 DEBUG 27188 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-01-07 14:21:00.069  INFO 27188 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 6.59 seconds (JVM running for 8.921)
+2020-01-07 14:41:10.635  INFO 1960 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 1960 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-01-07 14:41:10.640 DEBUG 1960 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-07 14:41:10.641  INFO 1960 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-01-07 14:41:11.915  WARN 1960 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-07 14:41:13.770 DEBUG 1960 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-01-07 14:41:14.749  INFO 1960 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 4.394 seconds (JVM running for 5.744)
+2020-01-07 14:51:21.706  WARN 1960 --- [http-nio-8484-exec-5] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 0, SQLState: 23505
+2020-01-07 14:51:21.707 ERROR 1960 --- [http-nio-8484-exec-5] o.h.e.j.s.SqlExceptionHelper             : ERROR: llave duplicada viola restricción de unicidad «usuario_email_un»
+  Detail: Ya existe la llave (email)=(email2@gmail.com).
+2020-01-07 14:51:21.714 ERROR 1960 --- [http-nio-8484-exec-5] m.u.a.s.a.a.FamiliarRestController       : Transaction silently rolled back because it has been marked as rollback-only
+2020-01-31 09:38:44.389  INFO 9312 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 9312 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-01-31 09:38:44.399 DEBUG 9312 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-31 09:38:44.401  INFO 9312 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-01-31 09:38:47.072  WARN 9312 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-31 09:38:51.051 DEBUG 9312 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-01-31 09:38:51.124  WARN 9312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-01-31 09:38:52.666  INFO 9312 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 8.917 seconds (JVM running for 11.637)
+2020-01-31 12:10:58.541  INFO 31692 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 31692 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-01-31 12:10:58.548 DEBUG 31692 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-01-31 12:10:58.549  INFO 31692 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-01-31 12:11:00.307  WARN 31692 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-31 12:11:02.946 DEBUG 31692 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-01-31 12:11:02.984  WARN 31692 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-01-31 12:11:04.114  INFO 31692 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 5.962 seconds (JVM running for 7.954)
+2020-02-01 11:39:49.133  INFO 19772 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 19772 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-01 11:39:49.142 DEBUG 19772 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-01 11:39:49.144  INFO 19772 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-01 11:39:51.398  WARN 19772 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 11:39:54.807 DEBUG 19772 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-01 11:39:56.273  INFO 19772 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 7.647 seconds (JVM running for 9.848)
+2020-02-01 11:41:11.203 ERROR 19772 --- [http-nio-8484-exec-1] .s.a.a.AfiliacionCatalogosRestController : I/O error on GET request for "http://127.0.0.1:8081/afiliacion/catalogos/nacionalidades": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-02-01 11:46:05.400 ERROR 19772 --- [http-nio-8484-exec-10] .s.a.a.AfiliacionCatalogosRestController : Esta es mi excepción
+2020-02-01 11:46:59.552 ERROR 19772 --- [http-nio-8484-exec-5] m.u.a.s.m.j.JwtEntryPoint                : Fallo en el  método commence. Credenciales erróneas
+2020-02-01 11:58:30.743  INFO 14472 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 14472 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-01 11:58:30.760 DEBUG 14472 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-01 11:58:30.762  INFO 14472 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-01 11:58:35.271  WARN 14472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 11:58:40.071 DEBUG 14472 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-01 11:58:40.123  WARN 14472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-01 11:58:41.975  INFO 14472 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 12.055 seconds (JVM running for 16.155)
+2020-02-01 12:01:35.355 ERROR 14472 --- [http-nio-8484-exec-3] m.u.a.s.m.j.JwtEntryPoint                : Fallo en el  método commence. Credenciales erróneas
+2020-02-01 12:04:16.122  INFO 24200 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 24200 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-01 12:04:16.131 DEBUG 24200 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-01 12:04:16.132  INFO 24200 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-01 12:04:18.759  WARN 24200 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 12:04:21.941 DEBUG 24200 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-01 12:04:21.987  WARN 24200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-01 12:04:23.323  INFO 24200 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 7.655 seconds (JVM running for 9.978)
+2020-02-01 12:15:38.759  INFO 20724 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 20724 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-01 12:15:38.769 DEBUG 20724 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-01 12:15:38.771  INFO 20724 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-01 12:15:41.161  WARN 20724 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-01 12:15:44.362 DEBUG 20724 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-01 12:15:44.411  WARN 20724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-01 12:15:45.795  INFO 20724 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 7.63 seconds (JVM running for 10.342)
+2020-02-11 12:30:36.568  INFO 23608 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 23608 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 12:30:36.569 DEBUG 23608 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 12:30:36.570  INFO 23608 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 12:30:38.970  WARN 23608 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 12:30:41.550 DEBUG 23608 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 12:30:41.598  WARN 23608 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-11 12:30:41.709  WARN 23608 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'afiliacionRestController' defined in file [C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes\mx\unitis\architecture\security\api_rest_controller\afiliacion\AfiliacionRestController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'afiliacionServiceImpl': Unsatisfied dependency expressed through field 'diasMaximos'; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "2;"
+2020-02-11 12:37:59.795  INFO 17476 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 17476 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 12:37:59.795 DEBUG 17476 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 12:37:59.796  INFO 17476 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 12:38:01.698  WARN 17476 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 12:38:03.998 DEBUG 17476 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 12:38:04.044  WARN 17476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-11 12:38:05.170  INFO 17476 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 5.846 seconds (JVM running for 7.644)
+2020-02-11 12:40:10.276  WARN 17476 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Boolean> mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController.nuevo(mx.unitis.architecture.security.aplicacion.dto.afiliacion.NuevoFamiliarDTO): [Field error in object 'nuevoFamiliarDTO' on field 'passw': rejected value [null]; codes [NotEmpty.nuevoFamiliarDTO.passw,NotEmpty.passw,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [nuevoFamiliarDTO.passw,passw]; arguments []; default message [passw]]; default message [no debe estar vacío]] ]
+2020-02-11 12:46:07.952  INFO 14516 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 14516 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 12:46:07.953 DEBUG 14516 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 12:46:07.953  INFO 14516 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 12:46:09.961  WARN 14516 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 12:46:12.198 DEBUG 14516 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 12:46:12.245  WARN 14516 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-11 12:46:13.564  INFO 14516 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 6.162 seconds (JVM running for 8.131)
+2020-02-11 12:46:51.137 ERROR 14516 --- [http-nio-8080-exec-1] m.u.a.s.a.a.FamiliarRestController       : null
+2020-02-11 12:53:07.149 ERROR 14516 --- [http-nio-8080-exec-2] m.u.a.s.a.a.FamiliarRestController       : null
+2020-02-11 12:53:56.803  INFO 22080 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 22080 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 12:53:56.805 DEBUG 22080 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 12:53:56.806  INFO 22080 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 12:53:59.148  WARN 22080 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 12:54:01.707 DEBUG 22080 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 12:54:01.757  WARN 22080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-11 12:54:03.122  INFO 22080 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 6.907 seconds (JVM running for 8.859)
+2020-02-11 12:56:11.584  INFO 26896 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 26896 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 12:56:11.584 DEBUG 26896 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 12:56:11.585  INFO 26896 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 12:56:13.895  WARN 26896 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 12:56:16.375 DEBUG 26896 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 12:56:16.425  WARN 26896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-11 12:56:17.722  INFO 26896 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 6.678 seconds (JVM running for 8.833)
+2020-02-11 13:03:16.259 ERROR 26896 --- [http-nio-8080-exec-1] m.u.a.s.a.a.FamiliarRestController       : null
+2020-02-11 13:47:06.597  INFO 21604 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 21604 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 13:47:06.598 DEBUG 21604 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 13:47:06.598  INFO 21604 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 13:47:08.546  WARN 21604 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 13:47:10.686 DEBUG 21604 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 13:47:10.745  WARN 21604 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-11 13:47:11.897  INFO 21604 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 5.719 seconds (JVM running for 7.549)
+2020-02-11 13:49:46.273  INFO 25436 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 25436 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 13:49:46.274 DEBUG 25436 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 13:49:46.274  INFO 25436 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 13:49:48.265  WARN 25436 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 13:49:50.547 DEBUG 25436 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 13:49:50.590  WARN 25436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-11 13:49:51.781  INFO 25436 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 5.971 seconds (JVM running for 7.751)
+2020-02-11 13:56:17.012  INFO 16768 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 16768 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 13:56:17.013 DEBUG 16768 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 13:56:17.013  INFO 16768 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 13:56:19.183  WARN 16768 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 13:56:21.515 DEBUG 16768 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 13:56:21.571  WARN 16768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-11 13:56:22.899  INFO 16768 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 6.369 seconds (JVM running for 8.492)
+2020-02-11 14:00:00.812  INFO 16628 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 16628 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 14:00:00.813 DEBUG 16628 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 14:00:00.813  INFO 16628 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 14:00:03.238  WARN 16628 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 14:00:05.845 DEBUG 16628 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 14:00:05.896  WARN 16628 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-11 14:00:07.281  INFO 16628 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 7.057 seconds (JVM running for 9.263)
+2020-02-11 14:10:07.577  INFO 16628 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 16628 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 14:10:07.577 DEBUG 16628 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 14:10:07.578  INFO 16628 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 14:10:08.300  WARN 16628 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-02-11 14:10:08.403  WARN 16628 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 14:10:09.325 DEBUG 16628 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 14:10:09.350  WARN 16628 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-11 14:10:09.871  INFO 16628 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 2.386 seconds (JVM running for 611.852)
+2020-02-11 14:19:55.017  INFO 31232 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 31232 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 14:19:55.018 DEBUG 31232 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 14:19:55.018  INFO 31232 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 14:19:57.209  WARN 31232 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 14:19:59.589 DEBUG 31232 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 14:20:00.963  INFO 31232 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 6.461 seconds (JVM running for 8.543)
+2020-02-11 14:23:40.954  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 18588 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 14:23:40.955 DEBUG 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 14:23:40.955  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 14:23:43.765  WARN 18588 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 14:23:46.984 DEBUG 18588 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 14:23:48.976  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 8.699 seconds (JVM running for 11.549)
+2020-02-11 14:38:21.262 ERROR 18588 --- [http-nio-8080-exec-2] m.u.a.s.a.a.FamiliarRestController       : Transaction silently rolled back because it has been marked as rollback-only
+2020-02-11 14:40:58.538 ERROR 18588 --- [http-nio-8080-exec-3] m.u.a.s.a.a.FamiliarRestController       : Transaction silently rolled back because it has been marked as rollback-only
+2020-02-11 14:41:07.662 ERROR 18588 --- [http-nio-8080-exec-1] m.u.a.s.a.a.FamiliarRestController       : Transaction silently rolled back because it has been marked as rollback-only
+2020-02-11 14:41:20.884  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 18588 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 14:41:20.884 DEBUG 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 14:41:20.884  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 14:41:21.918  WARN 18588 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-02-11 14:41:22.074  WARN 18588 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 14:41:23.032 DEBUG 18588 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 14:41:23.497  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 2.706 seconds (JVM running for 1066.07)
+2020-02-11 14:42:55.131  INFO 18588 --- [http-nio-8080-exec-1] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-11 14:44:29.143  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 18588 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 14:44:29.143 DEBUG 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 14:44:29.144  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 14:44:30.225  WARN 18588 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-02-11 14:44:30.451  WARN 18588 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 14:44:32.043 DEBUG 18588 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 14:44:32.590  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 3.555 seconds (JVM running for 1255.162)
+2020-02-11 14:44:37.886  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 18588 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 14:44:37.886 DEBUG 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 14:44:37.886  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 14:44:38.751  WARN 18588 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-02-11 14:44:38.873  WARN 18588 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 14:44:39.753 DEBUG 18588 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 14:44:40.343  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 2.566 seconds (JVM running for 1262.916)
+2020-02-11 14:44:45.976  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 18588 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 14:44:45.976 DEBUG 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 14:44:45.976  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 14:44:46.979  WARN 18588 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-02-11 14:44:47.139  WARN 18588 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 14:44:48.582 DEBUG 18588 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 14:44:49.159  INFO 18588 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 3.272 seconds (JVM running for 1271.732)
+2020-02-11 14:45:02.848 ERROR 18588 --- [http-nio-8080-exec-1] m.u.a.s.a.a.FamiliarRestController       : La dirección de correo familiar_prueba@gmail.com ya existe
+2020-02-11 14:45:20.157  INFO 18588 --- [http-nio-8080-exec-2] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-11 15:21:24.410  INFO 17416 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 17416 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 15:21:24.411 DEBUG 17416 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 15:21:24.411  INFO 17416 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 15:21:26.825  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 15:21:29.593 DEBUG 17416 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 15:21:31.032  INFO 17416 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 7.18 seconds (JVM running for 9.353)
+2020-02-11 15:21:58.062  INFO 17416 --- [http-nio-8080-exec-2] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-11 15:23:54.898  INFO 17416 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 17416 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 15:23:54.898 DEBUG 17416 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 15:23:54.898  INFO 17416 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 15:23:56.565  WARN 17416 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-02-11 15:23:56.750  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 15:23:58.080 DEBUG 17416 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 15:23:58.539  INFO 17416 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 3.771 seconds (JVM running for 156.86)
+2020-02-11 15:24:12.975  INFO 17416 --- [http-nio-8080-exec-1] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-11 15:26:30.968 ERROR 17416 --- [http-nio-8080-exec-3] m.u.a.s.a.a.FamiliarRestController       : Ocurrió un error
+2020-02-11 15:37:48.641  INFO 32008 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 32008 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-11 15:37:48.642 DEBUG 32008 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-11 15:37:48.643  INFO 32008 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-11 15:37:52.076  WARN 32008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-11 15:37:55.775 DEBUG 32008 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-11 15:37:57.814  INFO 32008 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 9.958 seconds (JVM running for 12.952)
+2020-02-11 15:39:02.568  INFO 32008 --- [http-nio-8080-exec-1] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-12 10:44:46.475  INFO 1632 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 1632 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-12 10:44:46.476 DEBUG 1632 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-12 10:44:46.476  INFO 1632 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-12 10:44:48.050  WARN 1632 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-12 10:44:49.935 DEBUG 1632 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-12 10:44:50.966  INFO 1632 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 4.864 seconds (JVM running for 6.338)
+2020-02-12 10:45:07.845  INFO 1632 --- [http-nio-8080-exec-1] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-12 10:46:04.227 ERROR 1632 --- [http-nio-8080-exec-3] m.u.a.s.u.AES                            : Error al desencriptar: java.security.InvalidKeyException: Parameters missing
+2020-02-12 10:46:04.228 ERROR 1632 --- [http-nio-8080-exec-3] m.u.a.s.a.a.FamiliarRestController       : null
+2020-02-12 10:47:05.629  INFO 1632 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 1632 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-12 10:47:05.629 DEBUG 1632 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-12 10:47:05.629  INFO 1632 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-12 10:47:06.026  WARN 1632 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-02-12 10:47:06.097  WARN 1632 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-12 10:47:06.699 DEBUG 1632 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-12 10:47:07.026  INFO 1632 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 1.437 seconds (JVM running for 142.398)
+2020-02-12 10:47:12.706 ERROR 1632 --- [http-nio-8080-exec-1] m.u.a.s.u.AES                            : Error al desencriptar: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 16 when decrypting with padded cipher
+2020-02-12 10:47:12.706 ERROR 1632 --- [http-nio-8080-exec-1] m.u.a.s.a.a.FamiliarRestController       : null
+2020-02-12 10:47:34.454  INFO 1632 --- [http-nio-8080-exec-2] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-12 10:47:47.252 ERROR 1632 --- [http-nio-8080-exec-3] m.u.a.s.u.AES                            : Error al desencriptar: java.lang.IllegalArgumentException: Illegal base64 character 20
+2020-02-12 10:47:47.253 ERROR 1632 --- [http-nio-8080-exec-3] m.u.a.s.a.a.FamiliarRestController       : null
+2020-02-12 12:56:24.228  INFO 4440 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 4440 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-12 12:56:24.229 DEBUG 4440 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-12 12:56:24.230  INFO 4440 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-12 12:56:27.786  WARN 4440 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-12 12:56:31.015 DEBUG 4440 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-12 12:56:31.089  WARN 4440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-12 12:56:32.980  INFO 4440 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 9.605 seconds (JVM running for 12.565)
+2020-02-12 12:56:59.194  INFO 4440 --- [http-nio-8080-exec-1] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-12 12:57:21.516 ERROR 4440 --- [http-nio-8080-exec-2] m.u.a.s.u.AES                            : Error al desencriptar: java.lang.IllegalArgumentException: Illegal base64 character 20
+2020-02-12 12:57:21.518 ERROR 4440 --- [http-nio-8080-exec-2] m.u.a.s.a.a.FamiliarRestController       : null
+2020-02-12 17:01:05.892  INFO 13556 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 13556 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-12 17:01:05.893 DEBUG 13556 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-12 17:01:05.894  INFO 13556 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-12 17:01:08.452  WARN 13556 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-12 17:01:11.227 DEBUG 13556 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-12 17:01:11.289  WARN 13556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-12 17:01:12.711  INFO 13556 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 7.59 seconds (JVM running for 9.886)
+2020-02-12 17:01:25.877  INFO 13556 --- [http-nio-8080-exec-1] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-12 17:01:52.735 ERROR 13556 --- [http-nio-8080-exec-2] m.u.a.s.a.a.FamiliarRestController       : null
+2020-02-12 17:02:56.534  INFO 5952 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 5952 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-12 17:02:56.534 DEBUG 5952 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-12 17:02:56.535  INFO 5952 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-12 17:02:58.828  WARN 5952 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-12 17:03:01.186 DEBUG 5952 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-12 17:03:01.232  WARN 5952 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-12 17:03:02.516  INFO 5952 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 6.464 seconds (JVM running for 8.591)
+2020-02-12 17:06:31.340  INFO 5952 --- [http-nio-8080-exec-1] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-12 17:11:43.831  INFO 5952 --- [http-nio-8080-exec-3] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-18 16:49:27.765  INFO 23152 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 23152 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-18 16:49:27.766 DEBUG 23152 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-18 16:49:27.767  INFO 23152 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-18 16:49:30.276  WARN 23152 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-18 16:49:32.936 DEBUG 23152 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-18 16:49:32.984  WARN 23152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-18 16:49:34.384  INFO 23152 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 7.237 seconds (JVM running for 9.375)
+2020-02-18 16:52:54.264  INFO 23152 --- [http-nio-8080-exec-3] m.u.a.s.a.a.FamiliarRestController       : Usuario Logeado: 24
+2020-02-18 16:52:54.313 ERROR 23152 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/PLIIS] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at mx.unitis.architecture.security.service.modulo.ModuloServiceImpl.getURL(ModuloServiceImpl.java:28) ~[classes/:?]
+	at mx.unitis.architecture.security.service.modulo.ModuloServiceImpl$$FastClassBySpringCGLIB$$a9785af0.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366) ~[spring-tx-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99) ~[spring-tx-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.service.modulo.ModuloServiceImpl$$EnhancerBySpringCGLIB$$bd28ada2.getURL(<generated>) ~[?:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.CatalogosAfiliacionServiceImpl.getURLAfiliacionFamiliares(CatalogosAfiliacionServiceImpl.java:190) ~[classes/:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.CatalogosAfiliacionServiceImpl$$FastClassBySpringCGLIB$$fe83ab0.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.CatalogosAfiliacionServiceImpl$$EnhancerBySpringCGLIB$$1e8224e2.getURLAfiliacionFamiliares(<generated>) ~[?:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl.todosLosFamiliares(AfiliacionServiceImpl.java:371) ~[classes/:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl$$FastClassBySpringCGLIB$$b4377f93.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl$$EnhancerBySpringCGLIB$$6804996b.todosLosFamiliares(<generated>) ~[?:?]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController.todosLosFamiliares(FamiliarRestController.java:82) ~[classes/:?]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController$$FastClassBySpringCGLIB$$4acfe342.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:69) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController$$EnhancerBySpringCGLIB$$ecee6244.todosLosFamiliares(<generated>) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.model.jwt.JwtTokenFilter.doFilterInternal(JwtTokenFilter.java:45) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+
+2020-02-18 16:54:05.949  INFO 23152 --- [http-nio-8080-exec-4] m.u.a.s.a.a.FamiliarRestController       : Usuario Logeado: 24
+2020-02-18 16:54:22.024 ERROR 23152 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/PLIIS] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at mx.unitis.architecture.security.service.modulo.ModuloServiceImpl.getURL(ModuloServiceImpl.java:28) ~[classes/:?]
+	at mx.unitis.architecture.security.service.modulo.ModuloServiceImpl$$FastClassBySpringCGLIB$$a9785af0.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366) ~[spring-tx-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99) ~[spring-tx-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.service.modulo.ModuloServiceImpl$$EnhancerBySpringCGLIB$$bd28ada2.getURL(<generated>) ~[?:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.CatalogosAfiliacionServiceImpl.getURLAfiliacionFamiliares(CatalogosAfiliacionServiceImpl.java:190) ~[classes/:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.CatalogosAfiliacionServiceImpl$$FastClassBySpringCGLIB$$fe83ab0.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.CatalogosAfiliacionServiceImpl$$EnhancerBySpringCGLIB$$1e8224e2.getURLAfiliacionFamiliares(<generated>) ~[?:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl.todosLosFamiliares(AfiliacionServiceImpl.java:371) ~[classes/:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl$$FastClassBySpringCGLIB$$b4377f93.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl$$EnhancerBySpringCGLIB$$6804996b.todosLosFamiliares(<generated>) ~[?:?]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController.todosLosFamiliares(FamiliarRestController.java:82) ~[classes/:?]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController$$FastClassBySpringCGLIB$$4acfe342.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:69) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController$$EnhancerBySpringCGLIB$$ecee6244.todosLosFamiliares(<generated>) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.model.jwt.JwtTokenFilter.doFilterInternal(JwtTokenFilter.java:45) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+
+2020-02-18 16:56:24.919  INFO 12744 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 12744 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-18 16:56:24.920 DEBUG 12744 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-18 16:56:24.920  INFO 12744 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-18 16:56:27.459  WARN 12744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-18 16:56:30.233 DEBUG 12744 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-18 16:56:30.289  WARN 12744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-18 16:56:31.677  INFO 12744 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 7.347 seconds (JVM running for 9.553)
+2020-02-18 16:56:38.339  INFO 12744 --- [http-nio-8080-exec-1] m.u.a.s.a.a.FamiliarRestController       : Usuario Logeado: 24
+2020-02-18 16:56:38.441 ERROR 12744 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/PLIIS] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request] with root cause
+
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:79) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:123) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:102) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:785) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:743) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:615) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl.todosLosFamiliares(AfiliacionServiceImpl.java:375) ~[classes/:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl$$FastClassBySpringCGLIB$$b4377f93.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl$$EnhancerBySpringCGLIB$$6b8897b2.todosLosFamiliares(<generated>) ~[?:?]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController.todosLosFamiliares(FamiliarRestController.java:82) ~[classes/:?]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController$$FastClassBySpringCGLIB$$4acfe342.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:69) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController$$EnhancerBySpringCGLIB$$be7709a1.todosLosFamiliares(<generated>) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.model.jwt.JwtTokenFilter.doFilterInternal(JwtTokenFilter.java:45) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+
+2020-02-18 16:57:12.178  INFO 12744 --- [http-nio-8080-exec-2] m.u.a.s.a.a.FamiliarRestController       : Usuario Logeado: 24
+2020-02-18 16:58:41.247  INFO 12744 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 12744 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-18 16:58:41.247 DEBUG 12744 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-18 16:58:41.247  INFO 12744 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-18 16:58:42.368  WARN 12744 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-02-18 16:58:42.499  WARN 12744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-18 16:58:43.581 DEBUG 12744 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-18 16:58:43.607  WARN 12744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-18 16:58:44.156  INFO 12744 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 3.027 seconds (JVM running for 142.031)
+2020-02-18 16:59:08.312 ERROR 12744 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/PLIIS] threw exception [Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: Session/EntityManager is closed] with root cause
+
+java.lang.IllegalStateException: Session/EntityManager is closed
+	at org.hibernate.internal.AbstractSharedSessionContract.checkOpen(AbstractSharedSessionContract.java:371) ~[hibernate-core-5.4.8.Final.jar:5.4.8.Final]
+	at org.hibernate.engine.spi.SharedSessionContractImplementor.checkOpen(SharedSessionContractImplementor.java:148) ~[hibernate-core-5.4.8.Final.jar:5.4.8.Final]
+	at org.hibernate.internal.SessionImpl.unwrap(SessionImpl.java:3661) ~[hibernate-core-5.4.8.Final.jar:5.4.8.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:368) ~[spring-orm-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at com.sun.proxy.$Proxy122.unwrap(Unknown Source) ~[?:?]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.getSession(HibernateJpaDialect.java:357) ~[spring-orm-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:162) ~[spring-orm-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:402) ~[spring-orm-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:376) ~[spring-tx-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:572) ~[spring-tx-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:360) ~[spring-tx-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99) ~[spring-tx-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.service.modulo.ModuloServiceImpl$$EnhancerBySpringCGLIB$$c0acabe9.getURL(<generated>) ~[?:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.CatalogosAfiliacionServiceImpl.getURLAfiliacionFamiliares(CatalogosAfiliacionServiceImpl.java:190) ~[classes/:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.CatalogosAfiliacionServiceImpl$$FastClassBySpringCGLIB$$fe83ab0.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.CatalogosAfiliacionServiceImpl$$EnhancerBySpringCGLIB$$22062329.getURLAfiliacionFamiliares(<generated>) ~[?:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl.todosLosFamiliares(AfiliacionServiceImpl.java:371) ~[classes/:?]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl$$FastClassBySpringCGLIB$$b4377f93.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:685) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.aplicacion.negocio.service.afiliacion.AfiliacionServiceImpl$$EnhancerBySpringCGLIB$$6b8897b2.todosLosFamiliares(<generated>) ~[?:?]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController.todosLosFamiliares(FamiliarRestController.java:82) ~[classes/:?]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController$$FastClassBySpringCGLIB$$4acfe342.invoke(<generated>) ~[?:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:69) ~[spring-security-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.api_rest_controller.afiliacion.FamiliarRestController$$EnhancerBySpringCGLIB$$be7709a1.todosLosFamiliares(<generated>) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at mx.unitis.architecture.security.model.jwt.JwtTokenFilter.doFilterInternal(JwtTokenFilter.java:45) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+
+2020-02-18 16:59:08.332 ERROR 12744 --- [http-nio-8080-exec-2] o.a.c.h.Http11Processor                  : Error processing request
+
+java.lang.NullPointerException: null
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:412) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+
+2020-02-18 16:59:08.333  WARN 12744 --- [http-nio-8080-exec-2] o.a.c.c.CoyoteAdapter                    : Exception while attempting to add an entry to the access log
+
+java.lang.NullPointerException: null
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:490) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:438) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+
+2020-02-18 16:59:15.543  INFO 12744 --- [http-nio-8080-exec-1] m.u.a.s.a.a.FamiliarRestController       : Usuario Logeado: 24
+2020-02-18 17:00:37.845  INFO 12744 --- [http-nio-8080-exec-3] m.u.a.s.a.a.FamiliarRestController       : Usuario Logeado: 24
+2020-02-18 17:00:56.648  INFO 12744 --- [http-nio-8080-exec-2] m.u.a.s.a.a.FamiliarRestController       : Usuario Logeado: 24
+2020-02-18 17:00:57.719  INFO 12744 --- [http-nio-8080-exec-4] m.u.a.s.a.a.FamiliarRestController       : Usuario Logeado: 24
+2020-02-18 17:00:58.351  INFO 12744 --- [http-nio-8080-exec-5] m.u.a.s.a.a.FamiliarRestController       : Usuario Logeado: 24
+2020-02-19 16:07:34.468  INFO 8596 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 8596 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-19 16:07:34.468 DEBUG 8596 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-19 16:07:34.469  INFO 8596 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-19 16:07:35.989  WARN 8596 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-19 16:07:37.806 DEBUG 8596 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-19 16:07:37.844  WARN 8596 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-19 16:07:38.775  INFO 8596 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 4.644 seconds (JVM running for 6.038)
+2020-02-19 16:08:27.774  INFO 8596 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 8596 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-19 16:08:27.774 DEBUG 8596 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-19 16:08:27.774  INFO 8596 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-19 16:08:28.134  WARN 8596 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-02-19 16:08:28.207  WARN 8596 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-19 16:08:28.837 DEBUG 8596 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-19 16:08:28.853  WARN 8596 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-19 16:08:29.155  INFO 8596 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 1.419 seconds (JVM running for 56.418)
+2020-02-19 16:08:33.812  WARN 8596 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<mx.unitis.architecture.security.dto.MensajeDTO> mx.unitis.architecture.security.api_rest_controller.AuthRestController.nuevo(mx.unitis.architecture.security.dto.NuevoUsuarioArquitecturaDTO) with 6 errors: [Field error in object 'nuevoUsuarioArquitecturaDTO' on field 'numero': rejected value [null]; codes [NotBlank.nuevoUsuarioArquitecturaDTO.numero,NotBlank.numero,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [nuevoUsuarioArquitecturaDTO.numero,numero]; arguments []; default message [numero]]; default message [El número de domicilio es obligatorio.]] [Field error in object 'nuevoUsuarioArquitecturaDTO' on field 'colonia': rejected value [null]; codes [NotBlank.nuevoUsuarioArquitecturaDTO.colonia,NotBlank.colonia,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [nuevoUsuarioArquitecturaDTO.colonia,colonia]; arguments []; default message [colonia]]; default message [La colonia de domicilio es obligatoria.]] [Field error in object 'nuevoUsuarioArquitecturaDTO' on field 'alcaldia': rejected value [null]; codes [NotBlank.nuevoUsuarioArquitecturaDTO.alcaldia,NotBlank.alcaldia,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [nuevoUsuarioArquitecturaDTO.alcaldia,alcaldia]; arguments []; default message [alcaldia]]; default message [La alcaldía de domicilio es obligatoria.]] [Field error in object 'nuevoUsuarioArquitecturaDTO' on field 'pais': rejected value [null]; codes [NotBlank.nuevoUsuarioArquitecturaDTO.pais,NotBlank.pais,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [nuevoUsuarioArquitecturaDTO.pais,pais]; arguments []; default message [pais]]; default message [El país de domicilio es obligatorio.]] [Field error in object 'nuevoUsuarioArquitecturaDTO' on field 'calle': rejected value [null]; codes [NotBlank.nuevoUsuarioArquitecturaDTO.calle,NotBlank.calle,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [nuevoUsuarioArquitecturaDTO.calle,calle]; arguments []; default message [calle]]; default message [La calle del domicilio es obligatoria.]] [Field error in object 'nuevoUsuarioArquitecturaDTO' on field 'ciudad': rejected value [null]; codes [NotBlank.nuevoUsuarioArquitecturaDTO.ciudad,NotBlank.ciudad,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [nuevoUsuarioArquitecturaDTO.ciudad,ciudad]; arguments []; default message [ciudad]]; default message [La ciudad de domicilio es obligatoria.]] ]
+2020-02-19 16:12:00.731  WARN 8596 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<mx.unitis.architecture.security.dto.MensajeDTO> mx.unitis.architecture.security.api_rest_controller.AuthRestController.nuevo(mx.unitis.architecture.security.dto.NuevoUsuarioArquitecturaDTO): [Field error in object 'nuevoUsuarioArquitecturaDTO' on field 'pais': rejected value [null]; codes [NotBlank.nuevoUsuarioArquitecturaDTO.pais,NotBlank.pais,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [nuevoUsuarioArquitecturaDTO.pais,pais]; arguments []; default message [pais]]; default message [El país de domicilio es obligatorio.]] ]
+2020-02-19 16:12:17.741  WARN 8596 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 37, column: 5]]
+2020-02-19 16:12:39.980  INFO 8596 --- [http-nio-8080-exec-4] m.u.a.s.s.u.UsuarioServiceImpl           : Email de bienvenida enviado a jjose23456789@gmail.com
+2020-02-20 12:47:08.215  INFO 10392 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 10392 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-20 12:47:08.216 DEBUG 10392 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-20 12:47:08.217  INFO 10392 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-20 12:47:10.590  WARN 10392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-20 12:47:13.006 DEBUG 10392 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-20 12:47:13.053  WARN 10392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-20 12:47:14.349  INFO 10392 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 6.652 seconds (JVM running for 8.757)
+2020-02-20 12:49:49.910  INFO 10392 --- [http-nio-8080-exec-1] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-20 12:50:15.593 ERROR 10392 --- [http-nio-8080-exec-2] m.u.a.s.u.AES                            : Error al desencriptar: java.lang.IllegalArgumentException: Illegal base64 character 20
+2020-02-20 12:50:15.595 ERROR 10392 --- [http-nio-8080-exec-2] m.u.a.s.a.a.FamiliarRestController       : null
+2020-02-20 12:51:36.866 ERROR 10392 --- [http-nio-8080-exec-5] m.u.a.s.u.AES                            : Error al desencriptar: java.lang.IllegalArgumentException: Illegal base64 character 20
+2020-02-20 12:51:44.389 ERROR 10392 --- [http-nio-8080-exec-5] m.u.a.s.a.a.FamiliarRestController       : null
+2020-02-20 12:54:03.250  INFO 10392 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 10392 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-20 12:54:03.250 DEBUG 10392 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-20 12:54:03.250  INFO 10392 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-20 12:54:04.296  WARN 10392 --- [restartedMain] o.a.t.u.m.Registry                       : The MBean registry cannot be disabled because it has already been initialised
+2020-02-20 12:54:04.438  WARN 10392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-20 12:54:05.613 DEBUG 10392 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-20 12:54:05.644  WARN 10392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-20 12:54:06.307  INFO 10392 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 3.173 seconds (JVM running for 420.715)
+2020-02-20 12:56:41.102  INFO 10392 --- [http-nio-8080-exec-1] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-20 12:59:54.420  INFO 10392 --- [http-nio-8080-exec-4] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com
+2020-02-20 13:05:36.481  INFO 13968 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 13968 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-20 13:05:36.482 DEBUG 13968 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-20 13:05:36.482  INFO 13968 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-20 13:05:38.677  WARN 13968 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-20 13:05:41.141 DEBUG 13968 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-20 13:05:41.189  WARN 13968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-20 13:05:42.512  INFO 13968 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 6.582 seconds (JVM running for 8.531)
+2020-02-20 14:04:04.481  INFO 3512 --- [restartedMain] m.u.a.s.SecurityApplication              : Starting SecurityApplication on DESKTOP-20PPHNK with PID 3512 (C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura\target\classes started by DELL in C:\Pablo\pgm\eclipse\PLIIS\unitis-arquitectura)
+2020-02-20 14:04:04.481 DEBUG 3512 --- [restartedMain] m.u.a.s.SecurityApplication              : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-02-20 14:04:04.482  INFO 3512 --- [restartedMain] m.u.a.s.SecurityApplication              : No active profile set, falling back to default profiles: default
+2020-02-20 14:04:06.549  WARN 3512 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-20 14:04:08.760 DEBUG 3512 --- [restartedMain] m.u.a.s.m.j.JwtTokenFilter               : Filter 'jwtTokenFilter' configured for use
+2020-02-20 14:04:08.802  WARN 3512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-02-20 14:04:10.048  INFO 3512 --- [restartedMain] m.u.a.s.SecurityApplication              : Started SecurityApplication in 6.063 seconds (JVM running for 7.593)
+2020-02-20 14:06:13.872  INFO 3512 --- [http-nio-8080-exec-1] m.u.a.s.a.n.s.a.AfiliacionServiceImpl    : Email de confirmación de familiar enviado a prlopezm@gmail.com

@@ -1,0 +1,142 @@
+{"properties": [
+  {
+    "name": "modulo.normativas.codigo",
+    "type": "java.lang.String",
+    "description": "A description for 'modulo.normativas.codigo'"
+  },
+  {
+    "name": "modulo.empresas_sindicatos.codigo",
+    "type": "java.lang.String",
+    "description": "A description for 'modulo.empresas_sindicatos.codigo'"
+  },
+  {
+    "name": "modulo.comunicaciones.codigo",
+    "type": "java.lang.String",
+    "description": "A description for 'modulo.comunicaciones.codigo'"
+  },
+  {
+    "name": "modulo.arquitectura.codigo",
+    "type": "java.lang.String",
+    "description": "A description for 'modulo.arquitectura.codigo'"
+  },
+  {
+    "name": "modulo.afiliacion.codigo",
+    "type": "java.lang.String",
+    "description": "A description for 'modulo.afiliacion.codigo'"
+  },
+  {
+    "name": "aplicacion.codigo",
+    "type": "java.lang.String",
+    "description": "A description for 'aplicacion.codigo'"
+  },
+  {
+    "name": "codigo.afiliacion.catalogo.estado_civil",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.afiliacion.catalogo.estado_civil'"
+  },
+  {
+    "name": "codigo.afiliacion.nueva.afiliacion",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.afiliacion.nueva.afiliacion'"
+  },
+  {
+    "name": "codigo.afiliacion.delete.afiliacion",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.afiliacion.delete.afiliacion'"
+  },
+  {
+    "name": "codigo.afiliacion.existe.curp",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.afiliacion.existe.curp'"
+  },
+  {
+    "name": "codigo.afiliacion.existe.rfc",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.afiliacion.existe.rfc'"
+  },
+  {
+    "name": "codigo.afiliacion.catalogo.sexo",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.afiliacion.catalogo.sexo'"
+  },
+  {
+    "name": "codigo.comunicaciones.panico.todos.tipo.panico",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.comunicaciones.panico.todos.tipo.panico'"
+  },
+  {
+    "name": "codigo.empresas_sindicatos.catalogo.empresas",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.empresas_sindicatos.catalogo.empresas'"
+  },
+  {
+    "name": "codigo.empresas_sindicatos.existe.empleado",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.empresas_sindicatos.existe.empleado'"
+  },
+  {
+    "name": "codigo.afiliacion.catalogo.nacionalidad",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.afiliacion.catalogo.nacionalidad'"
+  },
+  {
+    "name": "codigo.empresas_sindicatos.catalogo.centrostrabajo.empresa",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.empresas_sindicatos.catalogo.centrostrabajo.empresa'"
+  },
+  {
+    "name": "ROLE_AFILIADO",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_AFILIADO'"
+  },
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret'"
+  },
+  {
+    "name": "jwt.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.expiration'"
+  },
+  {
+    "name": "ROLE_AFILIADO",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_AFILIADO'"
+  },
+  {
+    "name": "ROLE_AFILIADO",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_AFILIADO'"
+  },
+  {
+    "name": "codigo.comunicaciones.panico.emails.delegados",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.comunicaciones.panico.emails.delegados'"
+  },
+  {
+    "name": "ROLE_AFILIADO",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_AFILIADO'"
+  },
+  {
+    "name": "codigo.empresas_sindicatos.catalogo.emails.delegados",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.empresas_sindicatos.catalogo.emails.delegados'"
+  },
+  {
+    "name": "codigo.comunicaciones.panico.crear.panico",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.comunicaciones.panico.crear.panico'"
+  },
+  {
+    "name": "codigo.empresas_sindicatos.carpeta.sindical",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.empresas_sindicatos.carpeta.sindical'"
+  },
+  {
+    "name": "codigo.afiliacion.nuevo.miembro",
+    "type": "java.lang.String",
+    "description": "A description for 'codigo.afiliacion.nuevo.miembro'"
+  }
+]}

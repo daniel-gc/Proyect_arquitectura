@@ -1,0 +1,12 @@
+{
+  "nombres": "",
+  "passw": "",
+  "apellidoPaterno": "",
+  "apellidoMaterno": "",
+  "email": "",
+  "nick": "",
+  "roles": [
+    "ROLE_ADMINISTRADOR",
+    "ROLE_AFIALIADO"
+  ]
+}
