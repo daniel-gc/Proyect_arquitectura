@@ -73,7 +73,7 @@ public class SolicitudCreditoDTO implements Serializable {
     @Size(min = 2, max = 2)
     private List<@Valid ContactoCreditoDTO> listaContactoCreditoDTO;
     @NotEmpty
-    @Size(min = 5, max = 5)
+    @Size(min = 8, max = 8)
     private List< ArchivoCreditoDTO> listaArchivoCreditoDTO;
     private List<ObservacionCreditoDTO> listaObservacionCreditoDTO;
 }
